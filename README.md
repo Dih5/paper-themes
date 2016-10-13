@@ -1,5 +1,7 @@
 # paper-themes
 
+[![The unlicense](https://img.shields.io/badge/license-The Unlicense-blue.svg)](LICENSE)
+
 A simple plot theme for matplotlib I use as a base for scientific publications.
 
 ![alt tag](demo.png)

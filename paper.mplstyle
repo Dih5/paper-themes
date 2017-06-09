@@ -1,15 +1,19 @@
 text.usetex          : True
 font.family          : serif 
 font.serif           : computer modern roman # Computer Modern font
-font.size        : 16 # standard is 12pt
+font.size            : 16 # standard is 12pt
 figure.dpi           : 300 # dots per inch
-#Choices thinking of 6*sqrt(2),6 pdf export, to be resized to fit a two-column journal
+figure.figsize       : 8.48528137, 6.0 #sqrt(2) proportion
 
 legend.fancybox      : True # Rounded legend box
 axes.labelsize       : 16 #x-large  # fontsize of the x any y labels
 lines.linewidth      : 2.0     # line width in points
-lines.markersize     : 12 #Should be manually reduced when many points are plotted 
-axes.color_cycle     : 0072B2, 009E73, D55E00, CC79A7, F0E442, 56B4E9 #seaborn-colorblind scheme
+lines.markersize     : 12 #Should be manually reduced when many points are plotteid
+axes.prop_cycle      : cycler('color', ['1F77B4', '009E73', 'D55E00', 'CC79A7']) + cycler('linestyle', ['-', '--', ':', '-.'])
+
+image.cmap           : inferno # Default colormaps 
+
+errorbar.capsize     : 3  # Use caps on end of error bars
 
 xtick.minor.visible  : True
 ytick.minor.visible  : True

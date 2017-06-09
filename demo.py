@@ -54,7 +54,7 @@ with plt.style.context(['paper','larger-fonts']):
     plt.title('Linear')
     
     # Double the default size
-    plt.gcf().set_size_inches([2*6*np.sqrt(2),2*6]) 
+    plt.gcf().set_size_inches([2*6*((1+np.sqrt(5))/2),2*6]) 
     plt.gcf().tight_layout()
 
     plt.savefig('demo4.pdf')

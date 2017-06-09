@@ -3,13 +3,13 @@ font.family          : serif
 font.serif           : computer modern roman # Computer Modern font
 font.size            : 16 # standard is 12pt
 figure.dpi           : 300 # dots per inch
-figure.figsize       : 8.48528137, 6.0 #sqrt(2) proportion
+figure.figsize       : 9.7082039, 6.0 #golden ratio proportion
 
 legend.fancybox      : True # Rounded legend box
 axes.labelsize       : 16 #x-large  # fontsize of the x any y labels
 lines.linewidth      : 2.0     # line width in points
 lines.markersize     : 12 #Should be manually reduced when many points are plotteid
-axes.prop_cycle      : cycler('color', ['1F77B4', '009E73', 'D55E00', 'CC79A7']) + cycler('linestyle', ['-', '--', ':', '-.'])
+axes.prop_cycle      : cycler('color', ['1F77B4', 'FF7F0E', '2CA02C', 'D62728']) + cycler('linestyle', ['-', '--', ':', '-.'])
 
 image.cmap           : inferno # Default colormaps 
 

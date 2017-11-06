@@ -1,1 +1,2 @@
-font.size	     : 24 # standard is 12pt
+axes.titlesize      : large   # axes title
+axes.labelsize      : large   # x any y labels

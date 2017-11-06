@@ -4,6 +4,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+from os.path import join
+
 with plt.style.context('paper'):
     t = np.arange(0.0, 2.0, 0.01)
     s = 1 - np.cos(2*np.pi*t)
@@ -19,10 +21,10 @@ with plt.style.context('paper'):
     legend=plt.legend()
 
     plt.gcf().tight_layout()
+    
+    for ext in ["eps", "png", "pdf"]:
+        plt.savefig(join('img', 'demo.' + ext))
 
-    plt.savefig('demo.eps')
-    plt.savefig('demo.png')
-    plt.savefig('demo.pdf')
         
 with plt.style.context(['paper','larger-fonts']):
     fig=plt.figure()
@@ -56,7 +58,6 @@ with plt.style.context(['paper','larger-fonts']):
     # Double the default size
     plt.gcf().set_size_inches([2*6*((1+np.sqrt(5))/2),2*6]) 
     plt.gcf().tight_layout()
-
-    plt.savefig('demo4.pdf')
-    plt.savefig('demo4.eps')
-    plt.savefig('demo4.png')
+    
+    for ext in ["eps", "png", "pdf"]:
+        plt.savefig(join('img', 'demo4.' + ext))

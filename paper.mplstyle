@@ -9,7 +9,7 @@ legend.fancybox      : True # Rounded legend box
 axes.labelsize       : 16 #x-large  # fontsize of the x any y labels
 lines.linewidth      : 2.0     # line width in points
 lines.markersize     : 12 #Should be manually reduced when many points are plotteid
-axes.prop_cycle      : cycler('color', ['1F77B4', 'FF7F0E', '2CA02C', 'D62728']) + cycler('linestyle', ['-', '--', ':', '-.'])
+axes.prop_cycle      : cycler('color', ['1F77B4', 'FF7F0E', '2CA02C', 'D62728', '9467BD' ,'8C564B','E377C2','7F7F7F']) + cycler('linestyle', ['-', '--', ':', '-.']*2)
 
 image.cmap           : inferno # Default colormaps 
 

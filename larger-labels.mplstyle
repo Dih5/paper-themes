@@ -1,0 +1,2 @@
+#Increase fonts only in axes label
+axes.labelsize       : 20

@@ -26,7 +26,7 @@ with plt.style.context('paper'):
         plt.savefig(join('img', 'demo.' + ext))
 
         
-with plt.style.context(['paper','larger-fonts']):
+with plt.style.context(['paper','larger-fonts', 'size22']):
     fig=plt.figure()
 
     t = np.arange(0.0, 2.0, 0.01)
@@ -55,8 +55,6 @@ with plt.style.context(['paper','larger-fonts']):
     plt.ylabel('$f(x)$')
     plt.title('Linear')
     
-    # Double the default size
-    plt.gcf().set_size_inches([2*6*((1+np.sqrt(5))/2),2*6]) 
     plt.gcf().tight_layout()
     
     for ext in ["eps", "png", "pdf"]:

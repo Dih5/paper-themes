@@ -1,2 +1,4 @@
-axes.titlesize      : large   # axes title
-axes.labelsize      : large   # x any y labels
+#Increase fonts to improve readability
+font.size            : 16
+axes.labelsize       : 20
+axes.titlesize       : 20

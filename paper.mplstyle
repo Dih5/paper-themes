@@ -1,5 +1,4 @@
 text.usetex          : True
-text.latex.unicode   : True
 mathtext.fontset     : cm  # We are using TeX instead of mathtext, but in case it is edited
 font.family          : serif
 

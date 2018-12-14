@@ -7,7 +7,11 @@ A simple plot theme for matplotlib I use as a *base* for scientific publications
 ![alt tag](img/demo.png)
 ![alt tag](img/demo4.png)
 
-To install it clone or download and run [copy-themes.py](copy-themes.py).
+To install it clone or download and run [copy-themes.py](copy-themes.py):
+```bash
+git clone https://github.com/Dih5/paper-themes.git
+cd paper-themes && python copy-themes.py
+```
 A simple [demo](demo.py) is also provided.
 
 ## Notes
